@@ -16,12 +16,18 @@ npm init -y
 
 After successfuly creating the folder you can download the files and put them there
 
-You will need to have the following files:
+You will need to have the following file:
 
-- .env
 - index.js
 
-You can either change the tokens in the .env file or use the already created ones.
+After downlaoding the file, create new file named .env and paste the following structure:
+
+```bash
+GITHUB_TOKEN=your_github_token
+FRESHDESK_TOKEN=your_freshdesk_token
+```
+
+Replace the placeholders with the tokens of your choice
 
 Other needed libraries before running the project are:
 
