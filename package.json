@@ -1,0 +1,24 @@
+{
+  "name": "githubtofreshdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^21.0.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "octokit": "^4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.6.0",
+    "nock": "^13.5.4"
+  }
+}
